@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel JS</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>Painel JS</h1>
+
+  <input id="nome" type="text" placeholder="Seu nome">
+  <input id="idade" type="number" placeholder="Sua idade">
+
+  <div>
+    <button id="btnSaudar">Saudar</button>
+    <button id="btnIdade">Verificar idade</button>
+    <button id="btnTema">Modo noturno</button>
+    <button id="btnLimpar" type="button">Limpar</button>
+  </div>
+
+  <p id="resultado"></p>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
